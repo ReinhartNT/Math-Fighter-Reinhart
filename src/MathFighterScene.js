@@ -44,26 +44,26 @@ Phaser.Scene
         this.countdown = undefined
     }
     preload(){
-        this.load.image('background', 'images/bg_layer1.png')
-        this.load.image('fight-bg', 'images/fight-bg.png')
-        this.load.image('tile', 'images/tile.png')
-        this.load.spritesheet('player', 'images/warrior1.png', {
+        this.load.image('background', 'Images/bg_layer1.png')
+        this.load.image('fight-bg', 'Images/fight-bg.png')
+        this.load.image('tile', 'Images/tile.png')
+        this.load.spritesheet('player', 'Images/warrior1.png', {
             frameWidth: 80,
             frameHeight: 80
         })
-        this.load.spritesheet('enemy', 'images/warrior2.png', {
+        this.load.spritesheet('enemy', 'Images/warrior2.png', {
             frameWidth: 80,
             frameHeight: 80
         })
-        this.load.spritesheet('numbers', 'images/numbers.png', {
+        this.load.spritesheet('numbers', 'Images/numbers.png', {
             frameWidth: 131,
             frameHeight: 71.25
         })
-        this.load.spritesheet('slash', 'images/slash.png', {
+        this.load.spritesheet('slash', 'Images/slash.png', {
             frameWidth: 42,
             frameHeight: 88
         })
-        this.load.image('start-btn', 'images/start_button.png')
+        this.load.image('start-btn', 'Images/start_button.png')
     }
     create(){
         this.add.image(240, 320, 'background')
